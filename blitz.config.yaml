@@ -1,0 +1,10 @@
+name: ticketz
+description: Allow users to create tickets for support
+version: 0.5.0
+
+config:
+  tickets_category: ""
+  ticket_message: "Hey @user, this is your ticket! Please describe your issue here."
+  support_roles:
+  - Moderator
+  - Helper
